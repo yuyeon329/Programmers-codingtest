@@ -13,6 +13,5 @@ def solution(scoville, K):
         else :
             break
     if scoville[0] < K:
-        answer = 0
-    return -1 if answer == 0 else answer
-
+        answer = -1
+    return answer
