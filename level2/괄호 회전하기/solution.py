@@ -2,7 +2,6 @@ from collections import deque
 
 def solution(s):
     answer = 0
-    paren = ["]","}",")"]
     stack = []
     stack = deque(stack)
 
